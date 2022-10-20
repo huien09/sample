@@ -1,4 +1,4 @@
-### sample
+## sample
 
 Sample of past assignment
 
@@ -9,11 +9,12 @@ Encryption formula:
 
 where C = cipher text, M = plain text, a and b = keys
 
-Key tested: 3, 9
+Key tested: a = 3, b = 9
 
 Compile: `javac Affine.java`  
 Run: `java Affine -key 3 9 -e <Name of input text file> <Name of output text file>`
 
 Note: 
-1. Input file needs to be created beforehand to run
-2. Replace `-e` with `-d` to run the decryption function
+1. JDK installed on computer for compiling
+2. Input file needs to be created beforehand to run
+3. Replace `-e` with `-d` to run the decryption function
